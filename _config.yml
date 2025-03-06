@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Machine Learning & Data Analytics # the website title (if blank, full name will be used instead)
 first_name: Alexandre
 middle_name: 
 last_name: Paulien
@@ -87,8 +87,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Project Progress Report # blog_name will be displayed in your blog page
+blog_description: Sharing findings and progress about projects
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
