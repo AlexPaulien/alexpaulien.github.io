@@ -25,4 +25,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I use this website as a portfolio to showcase data analytics and data science related projects I did. You can expect to see different types of projects such as data scrapping, machine and IA model building, visualization as well as end-to-end analytical projects. I hold a MS in analytics from the Georgia Institute of Technology and have more than 10 years of experience in forecasting and supply chain planning.
+I use this website as a portfolio to showcase data analytics and data science related projects I worked on. You can expect to see different types of projects such as data scrapping, machine and IA model building, visualization as well as end-to-end analytical projects. I hold a MS in analytics from the Georgia Institute of Technology and have more than 10 years of experience in forecasting and supply chain planning.
