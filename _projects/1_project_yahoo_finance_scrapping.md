@@ -4,7 +4,7 @@ title: Yahoo Finance Scrapper
 description: Scrapping financial data from Yahoo finance.
 img: assets/img/12.jpg
 importance: 1
-category: Web scrapping
+category: web scrapping
 related_publications: true
 ---
 
