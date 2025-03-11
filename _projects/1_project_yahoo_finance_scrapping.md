@@ -12,8 +12,8 @@ related_publications: true
 
 This script parses the financial data page from yahoo finance for a list of tickers and put them all in a dictionary (of dictionaries). The data we are targeting comes from the url 'https://finance.yahoo.com/quote/AAPL/financials/' (exemple from Apple's ticker) are shown in the two screenshots below:
 
-![data we want to scrap](assets/img/yahoo_finance_screenshot_1.png)
-![other data we want to scrap](assets/img/yahoo_finance_screenshot_2.png)
+![data we want to scrap](../assets/img/projects/1_project_yahoo_finance_scrapper/yahoo_finance_screenshot_1.png)
+![other data we want to scrap](../assets/img/projects/1_project_yahoo_finance_scrapper/yahoo_finance_screenshot_2.png)
 *the data this script is scrapping*
 
 Another function (provided) transforms the scrapped data into a Pandas dataframe for further analysis and work.
@@ -37,7 +37,7 @@ The code iterates through the list of tickers provided and requests the correspo
 
 The extracted data are shown below and the section about 'Total Revenue' row from Google Finance page is highlighted.
 
-![data extracted from the URL](assets/img/soup.png)
+![data extracted from the URL](../assets/img/projects/1_project_yahoo_finance_scrapper/soup.png)
 
 We then need to identify some code (html for instance) patterns that we could use with regular expression to extract the data we are interested in and put them in a more usable format. Below is the code used to extract each row of the table (getting the row name as well as the data) and put them in a dictionary for each ticker:
 
@@ -68,7 +68,7 @@ The result comes in the form of a dictionary of dictionaries with the following 
 
 This can easily be put into a Pandas dataframe format (function provided in the code) ready for any analytical task.
 
-![dataframe output format](assets/img/dataframe.png)
+![dataframe output format](../assets/img/projects/1_project_yahoo_finance_scrapper/dataframe.png)
 
 ## Future work
 
