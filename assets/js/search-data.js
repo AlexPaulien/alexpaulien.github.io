@@ -396,6 +396,11 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-yahoo-finance-scrapper",
+          title: 'Yahoo Finance Scrapper',
+          description: "Scrapping financial data from Yahoo finance.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_project_scrapping/";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
