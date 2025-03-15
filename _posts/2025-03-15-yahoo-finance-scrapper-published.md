@@ -1,10 +1,10 @@
 ---
 layout: post
 title: New project published
-date: 2025-03-14 16:45:00
+date: 2025-03-15
 description: Yahoo Finance Scrapper project published
-tags: scrapping project python
-categories: project news
+tags: scrapping python stock-market
+categories: project
 featured: false
 thumbnail: assets/img/projects/1_project_yahoo_finance_scrapper/project_cover.jpg
 ---
