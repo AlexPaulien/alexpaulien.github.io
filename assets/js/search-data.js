@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "books-the-godfather",
+        },{id: "post-new-project-published",
+      
+        title: "New project published",
+      
+      description: "Yahoo Finance Scrapper project published",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/yahoo-finance-scrapper-published/";
+        
+      },
+    },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
