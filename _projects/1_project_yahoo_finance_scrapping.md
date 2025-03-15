@@ -8,10 +8,11 @@ category: web scrapping
 related_publications: false
 ---
 
+**Corresponding github repository:** [yahoo-finance-scrapper](https://github.com/AlexPaulien/yahoo-finance-scrapper/tree/main)
 
 ## Goal
 
-This script parses the financial data page from yahoo finance for a list of tickers and put them all in a dictionary (of dictionaries). The data we are targeting comes from the url [https://finance.yahoo.com/quote/AAPL/financials/](https://finance.yahoo.com/quote/AAPL/financials/) (exemple from Apple's ticker) are shown in the two screenshots below:
+This script parses the financial data page from yahoo finance for a list of tickers and put them all in a dictionary (of dictionaries). The data we are targeting comes from the url [https://finance.yahoo.com/quote/AAPL/financials/](https://finance.yahoo.com/quote/AAPL/financials/) (exemple from Apple's ticker) and are shown in the two screenshots below:
 
 
 <div class="row">
@@ -35,7 +36,7 @@ Another function (provided) transforms the scrapped data into a Pandas dataframe
 
 ## Methodology
 
-The code iterates through the list of tickers provided and requests the corresponding url page using the Requests method and BeautifulSoup. We use a list of web browser agents (please refer to the code file) in order to avoid detection and blocking.
+The code iterates through the list of tickers provided and requests the corresponding url pages using the **Requests** package and **BeautifulSoup**. We use a list of web browser agents (please refer to the code file) in order to avoid detection and blocking.
 
 ```python      
     # randomly choose an agent
@@ -60,7 +61,7 @@ The extracted data are shown below and the section about 'Total Revenue' row fro
 </div>
 
 
-We then need to identify some code (html for instance) patterns that we could use with regular expression to extract the data we are interested in and put them in a more usable format. Below is the code used to extract each row of the table (getting the row name as well as the data) and put them in a dictionary for each ticker:
+We then need to identify some code patterns (html tags for instance) that we could use with regular expressions to extract the data we are interested in and put them in a more usable format. Below is the code used to extract each row of the table (getting the row name as well as the data) and put them in a dictionary for each ticker:
 
 ```python
     results = dict()
