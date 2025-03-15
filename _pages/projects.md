@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of personal data science projects.
 nav: true
 nav_order: 3
-display_categories: [web scrapping, work]
+display_categories: [web scrapping]
 horizontal: false
 ---
 
