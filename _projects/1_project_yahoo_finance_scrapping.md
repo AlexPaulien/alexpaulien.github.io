@@ -11,7 +11,7 @@ related_publications: false
 
 ## Goal
 
-This script parses the financial data page from yahoo finance for a list of tickers and put them all in a dictionary (of dictionaries). The data we are targeting comes from the url 'https://finance.yahoo.com/quote/AAPL/financials/' (exemple from Apple's ticker) are shown in the two screenshots below:
+This script parses the financial data page from yahoo finance for a list of tickers and put them all in a dictionary (of dictionaries). The data we are targeting comes from the url [https://finance.yahoo.com/quote/AAPL/financials/](https://finance.yahoo.com/quote/AAPL/financials/) (exemple from Apple's ticker) are shown in the two screenshots below:
 
 
 <div class="row">
