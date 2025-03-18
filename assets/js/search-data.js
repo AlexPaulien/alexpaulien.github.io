@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
         },{id: "post-new-project-published",
       
         title: "New project published",
@@ -61,6 +68,13 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project_yahoo_finance_scrapping/";
             },},{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/alexandre-paulien-8364aa1a", "_blank");
+        },
+      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
@@ -73,13 +87,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://instagram.com/alexandre_paulien", "_blank");
-        },
-      },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/alexandre-paulien-8364aa1a", "_blank");
         },
       },{
       id: 'light-theme',
